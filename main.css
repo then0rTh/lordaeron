@@ -11,7 +11,7 @@ body {
 section, header {
   padding: 0.1rem;
 }
-@media (min-width: 20rem) {
+@media (min-width: 22rem) {
   section, header {
     padding: 1rem;
   }
@@ -39,7 +39,7 @@ section > .content {
   border: 0 solid #0063b1;
   padding: 0 0.3rem;
 }
-@media (min-width: 20rem) {
+@media (min-width: 22rem) {
   section > .content {
     min-width: 20rem;
   }
