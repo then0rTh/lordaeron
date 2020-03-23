@@ -8,10 +8,17 @@ body {
   font-family: sans-serif;
 }
 
+body > h1, body > h2, body > h3 {
+  padding-top: 1rem;
+  text-align: center;
+}
 section, header {
   padding: 0.1rem;
 }
 @media (min-width: 22rem) {
+  body > h1, body > h2, body > h3 {
+    margin: 2rem;
+  }
   section, header {
     padding: 1rem;
   }
