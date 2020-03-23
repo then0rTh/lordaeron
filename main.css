@@ -64,7 +64,7 @@ h1 {
 header {
   background:
     linear-gradient(transparent 7rem, #ecf0f1),
-    url(./img/group.png);
+    url(./img/group.jpg);
   padding-top: 10rem;
   background-size: cover;
   background-position: center;
@@ -79,7 +79,7 @@ header > * {
 footer {
   background:
     linear-gradient(#ecf0f1, transparent),
-    url(./img/fallen.png);
+    url(./img/fallen.jpg);
   padding-top: 10rem;
   background-size: cover;
   background-position: center;
