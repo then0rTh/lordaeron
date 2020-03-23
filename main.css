@@ -9,7 +9,12 @@ body {
 }
 
 section, header {
-  padding: 1rem;
+  padding: 0.1rem;
+}
+@media (min-width: 20rem) {
+  section, header {
+    padding: 1rem;
+  }
 }
 section {
   display: flex;
@@ -30,10 +35,14 @@ section > .content-add > img {
 section > .content {
   flex: 1;
   box-sizing: border-box;
-  min-width: 20rem;
   max-width: 50rem;
   border: 0 solid #0063b1;
   padding: 0 0.3rem;
+}
+@media (min-width: 20rem) {
+  section > .content {
+    min-width: 20rem;
+  }
 }
 @media (min-width: 42.6rem) {
   section:nth-of-type(even) > .content {
