@@ -39,6 +39,12 @@ section > .content-add > img {
   width: 20rem;
   max-width: 100%;
 }
+@media(min-width: 70rem) {
+  section > .content-add,
+  section > .content-add > img{
+    width: 30rem;
+  }
+}
 section > .content {
   flex: 1;
   box-sizing: border-box;
@@ -63,6 +69,15 @@ section > .content {
     padding-right: 0.4rem;
   }
 }
+@media(min-width: 70rem) {
+  section:nth-of-type(even) > .content {
+    padding-left: 1rem;
+  }
+  section:nth-of-type(odd) > .content {
+    padding-right: 1rem;
+  }
+}
+
 section.highlight {
   background-color: #0063b1;
   color: #ecf0f1;
@@ -79,9 +94,10 @@ h1 {
 }
 header {
   background:
-    linear-gradient(transparent 7rem, #ecf0f1),
+    linear-gradient(transparent 35vh, #ecf0f1),
     url(./img/group.jpg);
   padding-top: 10rem;
+  padding-top: 60vh;
   background-size: cover;
   background-position: center;
 }
@@ -96,7 +112,7 @@ footer {
   background:
     linear-gradient(#ecf0f1, transparent),
     url(./img/fallen.jpg);
-  padding-top: 10rem;
+  padding-top: 50vh;
   background-size: cover;
   background-position: center;
   margin-top: auto;
